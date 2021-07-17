@@ -7,6 +7,8 @@ Use the SDK for interacting with the https://swapi.dev. Currently, the SDK suppo
 - loading five different planets
 - loading all Star Wars films
 
+The methods are returning Combine publishers. 
+
 ## Installation
 
 You can add the SDK as a Swift package. Open your project, go to XCode -> File -> Swift Packages -> Add Package dependency. 
@@ -14,6 +16,10 @@ You can add the SDK as a Swift package. Open your project, go to XCode -> File -
 Insert the following url: https://github.com/martinmitrevski/StarWarsSDK.git and set the dependency to master (since the SDK is still in development).
 
 CocoaPods installation is not possible at the moment.
+
+## Supported versions
+
+iOS 13 and above.
 
 ## Usage
 
