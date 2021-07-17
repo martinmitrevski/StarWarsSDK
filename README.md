@@ -55,6 +55,7 @@ StarWars.shared.eyeColorForFivePeople().sink { completion in
 
 ## Future steps
 
+- Support for versioning and releases.
 - Support for async / await.
 - Support for classic completion handlers.
 - Exposing more methods from the API.
